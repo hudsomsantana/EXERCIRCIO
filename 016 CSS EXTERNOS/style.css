@@ -1,0 +1,18 @@
+
+body{
+    background-color: rgb(108, 108, 175);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     }
+h1{
+    color: black;
+}     
+h2{
+    color:red
+}
+h3{
+    color:black 
+}
+p{
+    color: brown;
+}

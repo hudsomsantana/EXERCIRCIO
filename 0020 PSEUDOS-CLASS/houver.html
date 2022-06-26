@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usando hover</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        div>p{
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: aliceblue;
+            background-color: brown; 
+            width: 200px;
+        }
+        div:hover{
+            color: red;
+        }
+        /*: pseudo-class
+           :;  pseudo-elements
+           > filho*/
+    </style>
+</head>
+<body>
+    <h1>AGORA PASSE O MOUSE EM CIMA DA FRASE PARA VER A FARSE ESCONDIDA</h1>
+    <p>AQUI</p>
+    <div>
+        passe o mouse aqui
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sapiente, consequuntur iure sint, molestias in eos ipsam doloribus deleniti numquam voluptas asperiores. Quo praesentium, nulla laboriosam repellat voluptate sint cum.</p>
+    </div>
+</body>
+</html>
